@@ -1,9 +1,10 @@
 <script lang="ts">
 	import '../app.css';
+	import SearchIndex from './index/SearchIndex.svelte';
 
 	let { children } = $props();
 </script>
 
-<h1>test</h1>
+<SearchIndex></SearchIndex>
 
 {@render children()}
